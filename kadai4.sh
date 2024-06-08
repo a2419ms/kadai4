@@ -7,8 +7,8 @@
 x=60
 y=120
 if [ $y -ge $x ]; then
-        echo "やり直してください"
-                exit 1 #スクリプトがこけたわけではないのでexit 0
+        echo "error 1"
+                exit 1
 else
         #echo "x > y check ok"
         #echo $x "," $y
