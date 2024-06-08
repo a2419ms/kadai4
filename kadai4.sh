@@ -4,7 +4,7 @@
 #read x
 #echo "任意の自然数yを入力してください。1つ目より小さい数字にしてください"
 #read y
-x=-60
+x=600
 y=120
 if [ $y -ge $x ] && [ $x -ge 0 ] ; then
         echo "error 1"
