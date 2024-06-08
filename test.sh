@@ -10,8 +10,9 @@ if [[ $result =~ ^[0-9]+$ ]]; then
 elif [[ $result = "error 1" ]]; then
 	echo "x < y : ng"
 	exit 1
-else
-	:
+elif [[ $result = "error 2" ]]; then
+	echo "(x | y) is 0 > ( x | y )"
+	exit 2
 fi
 
 #
