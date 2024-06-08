@@ -1,7 +1,14 @@
-name: actions-trial
+name: kadai4_test
 on: [push]
+
 jobs:
-  check-bats-version:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "first action!"
+  io_test:
+    name: Use Linux commands
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Permission Setting
+        run: chmod +x kadai4.sh test.sh
+      - name: Test Run
+        run: ./test.sh
