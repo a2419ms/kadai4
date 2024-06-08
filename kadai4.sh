@@ -14,17 +14,20 @@ else
         a=$x
         b=$y
         mod=$(($x%$y))
-        echo $mod
+        #echo $mod
         while :
                 do
                         r=$(($a%$b))
                         if [ $r -eq 0 ]; then
                                 break
                 else
-                        echo "現在の余り: " $mod
+			:
+			#計算中はなにもしない
+                        #echo "現在の余り: " $mod
                         fi
                 a=$b
                 b=$r
         done
-                echo "x:"$x "," "y:"$y ",""G.C.D." $b
+                echo $b
+                #echo "x:"$x "," "y:"$y ",""G.C.D." $b
 fi
