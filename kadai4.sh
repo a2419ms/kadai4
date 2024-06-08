@@ -1,15 +1,17 @@
 #!/bin/bash
 
-echo "任意の自然数xを入力してください"
-read x
-echo "任意の自然数yを入力してください。1つ目より小さい数字にしてください"
-read y
+#echo "任意の自然数xを入力してください"
+#read x
+#echo "任意の自然数yを入力してください。1つ目より小さい数字にしてください"
+#read y
+x=600
+y=120
 if [ $y -ge $x ]; then
         echo "やり直してください"
                 exit 0
 else
-        echo "x > y check ok"
-        echo $x "," $y
+        #echo "x > y check ok"
+        #echo $x "," $y
         #ここから計算
         a=$x
         b=$y
@@ -29,5 +31,6 @@ else
                 b=$r
         done
                 echo $b
+		exit 0
                 #echo "x:"$x "," "y:"$y ",""G.C.D." $b
 fi
