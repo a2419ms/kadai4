@@ -7,9 +7,11 @@ if [[ $result =~ ^[0-9]+$ ]]; then
 	echo "ok"
 	exit 0
 	#array=("ok") 後で実装できたらやります
-else if [[ $result = "error 1" ]]; then
+elif [[ $result = "error 1" ]]; then
 	echo "x < y : ng"
 	exit 1
+else
+	:
 fi
 
 #
