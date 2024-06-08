@@ -1,6 +1,8 @@
 # kadai4
 課題提出用リポジトリ
 
+https://github.com/a2419ms/kadai4
+
 kadai3, kadai4共通参考文献
 
 Bash $((算術式)) のすべて
