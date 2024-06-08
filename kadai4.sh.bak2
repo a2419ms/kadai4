@@ -1,14 +1,14 @@
 #!/bin/bash
 
-echo "任意の自然数xを入力してください"
-read x
-echo "任意の自然数yを入力してください。1つ目より小さい数字にしてください"
-read y
-#x=600
-#y=800
+#echo "任意の自然数xを入力してください"
+#read x
+#echo "任意の自然数yを入力してください。1つ目より小さい数字にしてください"
+#read y
+x=600
+y=800
 if [ $y -ge $x ]; then
         echo "やり直してください"
-                exit 0 #スクリプトがこけたわけではないのでexit 0
+                exit 0
 else
         #echo "x > y check ok"
         #echo $x "," $y

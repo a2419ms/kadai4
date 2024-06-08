@@ -13,6 +13,15 @@ Bash $((算術式)) のすべて - A 基本編
 
 https://qiita.com/akinomyoga/items/9761031c551d43307374
 
+シェルスクリプトのコマンド置換
+
+https://qiita.com/a05kk/items/793827b4695c47126237
+
+【Linux】dateコマンドで日付フォーマットの変更及び日付計算の方法
+
+https://qiita.com/setonao/items/85435d5f7c480425ba95
+
+
 
 kadai4参考文献
 
